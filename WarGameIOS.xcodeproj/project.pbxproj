@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB61CF3D2A3E024600FBBE31 /* WarGameIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF3C2A3E024600FBBE31 /* WarGameIOSApp.swift */; };
+		FB61CF3F2A3E024600FBBE31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF3E2A3E024600FBBE31 /* ContentView.swift */; };
+		FB61CF412A3E024700FBBE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB61CF402A3E024700FBBE31 /* Assets.xcassets */; };
+		FB61CF452A3E024700FBBE31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB61CF442A3E024700FBBE31 /* Preview Assets.xcassets */; };
+		FB61CF4F2A3E024700FBBE31 /* WarGameIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF4E2A3E024700FBBE31 /* WarGameIOSTests.swift */; };
+		FB61CF592A3E024700FBBE31 /* WarGameIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF582A3E024700FBBE31 /* WarGameIOSUITests.swift */; };
+		FB61CF5B2A3E024700FBBE31 /* WarGameIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF5A2A3E024700FBBE31 /* WarGameIOSUITestsLaunchTests.swift */; };
+		FB61CF6A2A3E08E800FBBE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF692A3E08E800FBBE31 /* ViewController.swift */; };
+		FB61CF6C2A3E0B2D00FBBE31 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF6B2A3E0B2D00FBBE31 /* LocationManager.swift */; };
+		FB61CF6E2A3E0B8B00FBBE31 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF6D2A3E0B8B00FBBE31 /* MainViewModel.swift */; };
+		FB61CF702A3E0BF200FBBE31 /* EnterNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61CF6F2A3E0BF200FBBE31 /* EnterNameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB61CF4B2A3E024700FBBE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB61CF312A3E024600FBBE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB61CF382A3E024600FBBE31;
+			remoteInfo = WarGameIOS;
+		};
+		FB61CF552A3E024700FBBE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB61CF312A3E024600FBBE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB61CF382A3E024600FBBE31;
+			remoteInfo = WarGameIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB61CF392A3E024600FBBE31 /* WarGameIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarGameIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB61CF3C2A3E024600FBBE31 /* WarGameIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameIOSApp.swift; sourceTree = "<group>"; };
+		FB61CF3E2A3E024600FBBE31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB61CF402A3E024700FBBE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB61CF422A3E024700FBBE31 /* WarGameIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WarGameIOS.entitlements; sourceTree = "<group>"; };
+		FB61CF442A3E024700FBBE31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB61CF4A2A3E024700FBBE31 /* WarGameIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarGameIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB61CF4E2A3E024700FBBE31 /* WarGameIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameIOSTests.swift; sourceTree = "<group>"; };
+		FB61CF542A3E024700FBBE31 /* WarGameIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarGameIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB61CF582A3E024700FBBE31 /* WarGameIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameIOSUITests.swift; sourceTree = "<group>"; };
+		FB61CF5A2A3E024700FBBE31 /* WarGameIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB61CF692A3E08E800FBBE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB61CF6B2A3E0B2D00FBBE31 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FB61CF6D2A3E0B8B00FBBE31 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FB61CF6F2A3E0BF200FBBE31 /* EnterNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB61CF362A3E024600FBBE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61CF472A3E024700FBBE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61CF512A3E024700FBBE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB61CF302A3E024600FBBE31 = {
+			isa = PBXGroup;
+			children = (
+				FB61CF3B2A3E024600FBBE31 /* WarGameIOS */,
+				FB61CF4D2A3E024700FBBE31 /* WarGameIOSTests */,
+				FB61CF572A3E024700FBBE31 /* WarGameIOSUITests */,
+				FB61CF3A2A3E024600FBBE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB61CF3A2A3E024600FBBE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB61CF392A3E024600FBBE31 /* WarGameIOS.app */,
+				FB61CF4A2A3E024700FBBE31 /* WarGameIOSTests.xctest */,
+				FB61CF542A3E024700FBBE31 /* WarGameIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB61CF3B2A3E024600FBBE31 /* WarGameIOS */ = {
+			isa = PBXGroup;
+			children = (
+				FB61CF3C2A3E024600FBBE31 /* WarGameIOSApp.swift */,
+				FB61CF3E2A3E024600FBBE31 /* ContentView.swift */,
+				FB61CF402A3E024700FBBE31 /* Assets.xcassets */,
+				FB61CF422A3E024700FBBE31 /* WarGameIOS.entitlements */,
+				FB61CF432A3E024700FBBE31 /* Preview Content */,
+				FB61CF692A3E08E800FBBE31 /* ViewController.swift */,
+				FB61CF6B2A3E0B2D00FBBE31 /* LocationManager.swift */,
+				FB61CF6D2A3E0B8B00FBBE31 /* MainViewModel.swift */,
+				FB61CF6F2A3E0BF200FBBE31 /* EnterNameView.swift */,
+			);
+			path = WarGameIOS;
+			sourceTree = "<group>";
+		};
+		FB61CF432A3E024700FBBE31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB61CF442A3E024700FBBE31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB61CF4D2A3E024700FBBE31 /* WarGameIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB61CF4E2A3E024700FBBE31 /* WarGameIOSTests.swift */,
+			);
+			path = WarGameIOSTests;
+			sourceTree = "<group>";
+		};
+		FB61CF572A3E024700FBBE31 /* WarGameIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB61CF582A3E024700FBBE31 /* WarGameIOSUITests.swift */,
+				FB61CF5A2A3E024700FBBE31 /* WarGameIOSUITestsLaunchTests.swift */,
+			);
+			path = WarGameIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB61CF382A3E024600FBBE31 /* WarGameIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB61CF5E2A3E024700FBBE31 /* Build configuration list for PBXNativeTarget "WarGameIOS" */;
+			buildPhases = (
+				FB61CF352A3E024600FBBE31 /* Sources */,
+				FB61CF362A3E024600FBBE31 /* Frameworks */,
+				FB61CF372A3E024600FBBE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarGameIOS;
+			productName = WarGameIOS;
+			productReference = FB61CF392A3E024600FBBE31 /* WarGameIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB61CF492A3E024700FBBE31 /* WarGameIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB61CF612A3E024700FBBE31 /* Build configuration list for PBXNativeTarget "WarGameIOSTests" */;
+			buildPhases = (
+				FB61CF462A3E024700FBBE31 /* Sources */,
+				FB61CF472A3E024700FBBE31 /* Frameworks */,
+				FB61CF482A3E024700FBBE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB61CF4C2A3E024700FBBE31 /* PBXTargetDependency */,
+			);
+			name = WarGameIOSTests;
+			productName = WarGameIOSTests;
+			productReference = FB61CF4A2A3E024700FBBE31 /* WarGameIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB61CF532A3E024700FBBE31 /* WarGameIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB61CF642A3E024700FBBE31 /* Build configuration list for PBXNativeTarget "WarGameIOSUITests" */;
+			buildPhases = (
+				FB61CF502A3E024700FBBE31 /* Sources */,
+				FB61CF512A3E024700FBBE31 /* Frameworks */,
+				FB61CF522A3E024700FBBE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB61CF562A3E024700FBBE31 /* PBXTargetDependency */,
+			);
+			name = WarGameIOSUITests;
+			productName = WarGameIOSUITests;
+			productReference = FB61CF542A3E024700FBBE31 /* WarGameIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB61CF312A3E024600FBBE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FB61CF382A3E024600FBBE31 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FB61CF492A3E024700FBBE31 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FB61CF382A3E024600FBBE31;
+					};
+					FB61CF532A3E024700FBBE31 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FB61CF382A3E024600FBBE31;
+					};
+				};
+			};
+			buildConfigurationList = FB61CF342A3E024600FBBE31 /* Build configuration list for PBXProject "WarGameIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB61CF302A3E024600FBBE31;
+			productRefGroup = FB61CF3A2A3E024600FBBE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB61CF382A3E024600FBBE31 /* WarGameIOS */,
+				FB61CF492A3E024700FBBE31 /* WarGameIOSTests */,
+				FB61CF532A3E024700FBBE31 /* WarGameIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB61CF372A3E024600FBBE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB61CF452A3E024700FBBE31 /* Preview Assets.xcassets in Resources */,
+				FB61CF412A3E024700FBBE31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61CF482A3E024700FBBE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61CF522A3E024700FBBE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB61CF352A3E024600FBBE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB61CF6E2A3E0B8B00FBBE31 /* MainViewModel.swift in Sources */,
+				FB61CF6C2A3E0B2D00FBBE31 /* LocationManager.swift in Sources */,
+				FB61CF3F2A3E024600FBBE31 /* ContentView.swift in Sources */,
+				FB61CF3D2A3E024600FBBE31 /* WarGameIOSApp.swift in Sources */,
+				FB61CF702A3E0BF200FBBE31 /* EnterNameView.swift in Sources */,
+				FB61CF6A2A3E08E800FBBE31 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61CF462A3E024700FBBE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB61CF4F2A3E024700FBBE31 /* WarGameIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61CF502A3E024700FBBE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB61CF592A3E024700FBBE31 /* WarGameIOSUITests.swift in Sources */,
+				FB61CF5B2A3E024700FBBE31 /* WarGameIOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB61CF4C2A3E024700FBBE31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB61CF382A3E024600FBBE31 /* WarGameIOS */;
+			targetProxy = FB61CF4B2A3E024700FBBE31 /* PBXContainerItemProxy */;
+		};
+		FB61CF562A3E024700FBBE31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB61CF382A3E024600FBBE31 /* WarGameIOS */;
+			targetProxy = FB61CF552A3E024700FBBE31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB61CF5C2A3E024700FBBE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB61CF5D2A3E024700FBBE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB61CF5F2A3E024700FBBE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WarGameIOS/WarGameIOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WarGameIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Afeka.WarGameIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB61CF602A3E024700FBBE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WarGameIOS/WarGameIOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WarGameIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Afeka.WarGameIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB61CF622A3E024700FBBE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Afeka.WarGameIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarGameIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WarGameIOS";
+			};
+			name = Debug;
+		};
+		FB61CF632A3E024700FBBE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Afeka.WarGameIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarGameIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WarGameIOS";
+			};
+			name = Release;
+		};
+		FB61CF652A3E024700FBBE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Afeka.WarGameIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WarGameIOS;
+			};
+			name = Debug;
+		};
+		FB61CF662A3E024700FBBE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Afeka.WarGameIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WarGameIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB61CF342A3E024600FBBE31 /* Build configuration list for PBXProject "WarGameIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB61CF5C2A3E024700FBBE31 /* Debug */,
+				FB61CF5D2A3E024700FBBE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB61CF5E2A3E024700FBBE31 /* Build configuration list for PBXNativeTarget "WarGameIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB61CF5F2A3E024700FBBE31 /* Debug */,
+				FB61CF602A3E024700FBBE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB61CF612A3E024700FBBE31 /* Build configuration list for PBXNativeTarget "WarGameIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB61CF622A3E024700FBBE31 /* Debug */,
+				FB61CF632A3E024700FBBE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB61CF642A3E024700FBBE31 /* Build configuration list for PBXNativeTarget "WarGameIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB61CF652A3E024700FBBE31 /* Debug */,
+				FB61CF662A3E024700FBBE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB61CF312A3E024600FBBE31 /* Project object */;
+}
